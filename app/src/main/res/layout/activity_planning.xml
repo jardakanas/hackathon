@@ -40,7 +40,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="2 Décembre "
+                        android:text="Jour 1 :"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView16"
@@ -156,7 +156,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="3 Décembre "
+                        android:text="Jour 2 :"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView116"

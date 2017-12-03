@@ -16,20 +16,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:background="@drawable/login">
+        android:layout_alignParentStart="true">
 
-        <TextView
-            android:text="Authentification"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView2"
-            android:textAlignment="center"
-            android:textStyle="normal|bold"
-            android:layout_marginTop="20px"
-            android:layout_marginBottom="60px"
-            android:textSize="24sp"
-            android:textColor="@color/colorPrimary" />
+            android:layout_height="93dp">
+
+            <ImageView
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/login"
+                android:id="@+id/imageView2" />
+
+            <TextView
+                android:text="Authentification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:layout_marginTop="50px"
+                android:layout_marginBottom="60px"
+                android:textSize="24sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="1" />
+
+        </LinearLayout>
 
         <TextView
             android:text="Login"

@@ -120,6 +120,17 @@ public class MainActivity extends AppCompatActivity
 
             //Toast.makeText(MainActivity.this, "ca marche", Toast.LENGTH_SHORT).show();
 
+        }else if (id == R.id.nav_team) {
+
+
+
+            Team fragment = new Team();
+            android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragment_container,fragment);
+            fragmentTransaction.commit();
+
+            //Toast.makeText(MainActivity.this, "ca marche", Toast.LENGTH_SHORT).show();
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
